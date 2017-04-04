@@ -30,7 +30,7 @@ filmRouter.delete('/:id', function(req, res){
 });
 
 filmRouter.post('/', function(req, res){
-  var newFilm = {
+  var newFilm = new {
     title: req.body.title,
     actors: req.body.actors
 });
